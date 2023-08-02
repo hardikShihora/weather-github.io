@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://source.unsplash.com/1600x900/?landscape') no-repeat;
+    /* height: 80vh; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.card {
+    padding: 2.5rem;
+    background: #000000a9;
+    color: white;
+    border-radius: 29px;
+    border: none;
+    outline: none;
+    width: 85%;
+    max-width: 50vh;
+    height: 500px;
+    margin: 60px 37px;
+    padding: 36px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchIcon {
+    background: none;
+    height: 40px;
+    width: 50px ;
+    margin-left: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#searchIcon:hover {
+    background: #6a6868a3;
+    transition: 0.81s ease-in;
+    border: none;
+    border-radius: 15%;
+}
+
+input#cityName {
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 1.4rem;
+    background: #6a6868a3;
+    border: none;
+    outline: none;
+    /* width: 89%; */
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.city {
+    margin: 15px 0;
+    font-size: 2rem;
+}
+
+.temp {
+    margin: 5px 0;
+    font-size: 2.5rem;
+}
+
+.inf0 {
+    font-size: 1.5rem;
+    line-height: 1;
+
+}
+
+.description,
+.humidity,
+.wind {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 0;
+}
+.iconInvalid{
+    height: 60px;
+}
+
+.logo{
+    width: 10px;
+    margin: right 1100px; 
+   margin: bottom 30px; ;
+}
